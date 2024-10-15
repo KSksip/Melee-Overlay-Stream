@@ -1,5 +1,5 @@
 async function loadData(event) {
-    const res = await fetch('/getinfo')
+    const res = await fetch('/getdata')
 
     const data = await res.json()
 
@@ -16,8 +16,8 @@ function render(data){
     document.getElementById('p1-charIcon').src = `./img/Stock Icons/${data.p1char}/${data.p1color}.png`
     document.getElementById('p2-charIcon').src = `./img/Stock Icons/${data.p2char}/${data.p2color}.png`
 
-    document.getElementById('p1-port').src = `./img/port icon/${data.p1port}.png`
-    document.getElementById('p2-port').src = `./img/port icon/${data.p2port}.png`
+    document.getElementById('p1-port').src = `./img/Port Icons/${data.p1port}.png`
+    document.getElementById('p2-port').src = `./img/Port Icons/${data.p2port}.png`
 
     document.getElementById('BoX').innerText = data.bo
 

@@ -1,6 +1,5 @@
 import customtkinter
 import os
-import subprocess
 
 customtkinter.set_appearance_mode("dark")
 
@@ -181,7 +180,7 @@ def findColors2(event):
 
 
 
-server = subprocess.Popen('node server.js', shell=True)
+
 
 ## window
 root = customtkinter.CTk()
@@ -267,9 +266,6 @@ bestOf = customtkinter.CTkOptionMenu(root, variable=bestOfX, values=BoX).grid(co
 customtkinter.CTkButton(root, text="Reset Overlay", command=resetOverlay).grid(column=0, columnspan=3, row=12,pady=10)
 customtkinter.CTkButton(root, text="Update Overlay", command=updateOverlay).grid(column=4, columnspan=3, row=12, pady=10)
 
-
-
-
 root.mainloop()
 
-server.kill()
+
