@@ -181,7 +181,7 @@ def findColors2(event):
 
 
 
-server = subprocess.Popen('node server.js')
+server = subprocess.Popen('node server.js', shell=True)
 
 ## window
 root = customtkinter.CTk()
