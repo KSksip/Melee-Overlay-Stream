@@ -1,0 +1,150 @@
+body{
+    background-image: url("./img/stream_overlay.png");
+}
+
+#wholeThang{
+    margin-top: 6px;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Deansgate;
+    src: url(./fonts/DeansgateCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: FolkPro-Heavy;
+    src: url(./fonts/A-OTF-FolkPro-Heavy.otf);
+}
+
+@font-face{
+    font-family: FolkPro-Medium;
+    src: url(./fonts/A-OTF-FolkPro-Medium.otf);
+}
+
+#p1-points{
+    font-family: Roboto-Bold;
+    margin-left: 220px;
+    margin-top: 660px;
+    font-size: 80px;
+    position: fixed;
+}
+
+#p2-points{
+    font-family: Roboto-Bold;
+    margin-right: 220px;
+    margin-top: 660px;
+    font-size: 80px;
+    position: fixed;
+    right: 0;
+}
+
+.name1div{
+    width: 280px;
+    margin-top: 258px;
+    position: fixed;
+}
+
+#p1-name {  
+    font-family: deansgate;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name2div{
+    width: 280px;
+    margin-top: 258px;
+    position: fixed;
+    right: 0;
+}
+
+#p2-name {
+    font-family: deansgate;
+    font-size: 30px;
+    text-align: center;
+}
+
+#p1-charIconDiv{
+    position: fixed;
+    margin-top: 635px;
+    left: 0;
+    margin-left: 10px;
+}
+
+#p2-charIconDiv{
+    position: fixed;
+    margin-top: 635px;
+    right: 0;
+    margin-right: 20px;
+}
+
+#p1-charIcon{
+    width: 140%;
+}
+
+#p2-charIcon{
+    width: 140%;
+    transform: scaleX(-1);
+}
+
+#portIconDiv{
+    position: fixed;
+    margin-top: 644px;
+    margin-left: 20px;
+}
+
+#p1-port{
+    width: 25%;
+    transform: rotate(6deg);
+}
+
+#portIconDiv2{
+    position: fixed;
+    margin-top: 644px;
+    margin-right: -360px;
+    right: 0;
+}
+
+#p2-port{
+    width: 25%;
+    transform: rotate(-6deg);
+}
+
+#BoXDiv{
+    position: fixed;
+    margin-top: 185px;
+    margin-left: 10px;
+    width: 268px;
+    height: 75px;
+}
+
+#BoX{
+    color: white;
+    font-family: folkpro-heavy;
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    height: 55px;
+}
+
+#roundNameDiv{
+    position: fixed;
+    margin-top: 185px;
+    margin-right: 10px;
+    width: 268px;
+    height: 75px;
+    right: 0;
+}
+
+#roundName{
+    color: white;
+    font-family: folkpro-heavy;
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    height: 55px;
+}
