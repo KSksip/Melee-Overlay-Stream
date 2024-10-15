@@ -1,5 +1,6 @@
 import customtkinter
 import os
+import subprocess
 
 customtkinter.set_appearance_mode("dark")
 
@@ -180,7 +181,7 @@ def findColors2(event):
 
 
 
-
+server = subprocess.Popen("./server", shell=True)
 
 ## window
 root = customtkinter.CTk()
@@ -268,4 +269,5 @@ customtkinter.CTkButton(root, text="Update Overlay", command=updateOverlay).grid
 
 root.mainloop()
 
-
+server.kill()
+server.terminate()

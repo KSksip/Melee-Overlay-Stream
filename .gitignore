@@ -2,6 +2,8 @@ node_modules/
 test.py
 test2.py
 dist/
-my_app.spec
+main.spec
 build/
-
+main
+server
+server.spec
