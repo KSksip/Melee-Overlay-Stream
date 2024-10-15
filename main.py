@@ -181,7 +181,7 @@ def findColors2(event):
 
 
 
-server = subprocess.Popen("./server", shell=True)
+server = subprocess.Popen("./server")
 
 ## window
 root = customtkinter.CTk()
@@ -271,3 +271,5 @@ root.mainloop()
 
 server.kill()
 server.terminate()
+
+## this doesnt kill the process
