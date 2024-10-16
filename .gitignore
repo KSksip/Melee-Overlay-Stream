@@ -1,0 +1,11 @@
+node_modules/
+test.py
+test2.py
+dist/
+main.spec
+build/
+main
+server
+server.spec
+.venv/
+info.json
