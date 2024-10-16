@@ -181,7 +181,7 @@ def findColors2(event):
 
 
 
-#server = subprocess.Popen("./server")
+server = subprocess.Popen("./server")
 
 ## window
 root = customtkinter.CTk()
@@ -269,7 +269,7 @@ customtkinter.CTkButton(root, text="Update Overlay", command=updateOverlay).grid
 
 root.mainloop()
 
-#server.kill()
-#server.terminate()
+server.kill()
+server.terminate()
 
 ## this doesnt kill the process
